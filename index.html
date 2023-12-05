@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Form</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <nav>
+        <img src="https://d24v5oonnj2ncn.cloudfront.net/wp-content/uploads/2018/10/16030301/Amazon-Logo-Black.jpg" alt="" class="logo" />
+        <button type="button" class="button">Find Jobs</button>
+    </nav>
+    <div class="bg-container">
+        <div class="card-container">
+            <h2>Amazon Voice Process Representative</h2>
+
+            <p>We are hiring dynamic individuals for our Voice Process team to provide exceptional customer support over the phone. If you have excellent communication skills and enjoy helping customers, we want to hear from you!</p>
+
+            <h3>Key Responsibilities:</h3>
+            <ul>
+                <li>Handle incoming customer calls with professionalism and empathy.</li>
+                <li>Resolve customer inquiries and issues promptly.</li>
+                <li>Collaborate with team members to ensure customer satisfaction.</li>
+                <li>Maintain accurate records of customer interactions.</li>
+            </ul>
+
+            <h3>Qualifications:</h3>
+            <ul>
+                <li>Excellent verbal communication skills.</li>
+                <li>Problem-solving abilities and attention to detail.</li>
+                <li>Previous customer service or call center experience is a plus.</li>
+                <li>Adaptability in a fast-paced work environment.</li>
+            </ul>
+
+            <form action="https://formspree.io/f/mwkdgeap" method="POST">
+                <h2 class="heading">Registration Form</h2>
+                <label>
+                    Full Name:
+                    <input type="text" name="name">
+                </label>
+                <label>
+                    Email:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    Mobile No:
+                    <input type="text" name="mobile" />
+                </label>
+                <label>
+                    Highest Level of Education:
+                    <input type="text" name="education" />
+                </label>
+                <label>
+                    Experience
+                    <select id="experienceLevel" required>
+                        <option value="">Select</option>
+                        <option value="entry">Entry Level</option>
+                        <option value="intermediate">Intermediate Level</option>
+                        <option value="advanced">Advanced Level</option>
+                    </select>
+                </label>
+                <label>
+                    Upload Resume:
+                    <input type="file" name="Resume" />
+                </label>
+                <label>
+                    Upload image:
+                    <input type="file" name="image" />
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
